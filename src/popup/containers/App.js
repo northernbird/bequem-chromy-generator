@@ -7,7 +7,8 @@ export default class AppContainer extends Component {
 
         this.state = {
             selectedTab: 'Generate Code',
-            recording: []
+            recording: [],
+            components: []
         }
 
         this.onSelectTab = this.onSelectTab.bind(this)
